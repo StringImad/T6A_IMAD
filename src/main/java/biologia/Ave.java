@@ -20,6 +20,14 @@ public class Ave extends Animales{
         super(tipoAnimal, reinoAniaml, esVertebrado, tipoReproduccion, numeroCelulas, respira);
     }
     
+    public void prosperacionEspecie(){
+        if(numeroHuevos>10){
+            System.out.println("Prosperacion alta");
+        }else{
+            System.out.println("Prosperacion baja");
+        }
+    }
+    
         @Override
        public void estaVivo() {
         if (getNumeroCelulas() > 0 && isRespira()== true) {

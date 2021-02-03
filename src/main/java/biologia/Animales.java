@@ -11,10 +11,11 @@ import java.util.Objects;
  *
  * @author MSI
  */
-public class Animales extends SeresVivos{
+public class Animales extends SeresVivos {
+
     private String tipoAnimal;
     private String reinoAniaml;
-    
+
     private boolean esVertebrado;//true vertebrado false invertebrado
 
     public Animales(String tipoAnimal, String reinoAniaml, boolean esVertebrado, String tipoReproduccion, int numeroCelulas, boolean respira) {
@@ -23,16 +24,29 @@ public class Animales extends SeresVivos{
         this.reinoAniaml = reinoAniaml;
         this.esVertebrado = esVertebrado;
     }
+    //Crea un método “metodoB” que sólo exista en la clase B. No está sobrescrito.
+
+    public void tipoEsqueleto() {
+
+        if (esVertebrado == true) {
+            System.out.println("Viviparo");
+        } else {
+            System.out.println("Oviparo");
+        }
+    }
     
+    
+
     //Sobrescribe el “metodoA” en B, C y D. 
     @Override
-       public void estaVivo() {
-        if (getNumeroCelulas() > 0 && isRespira()== true) {
+    public void estaVivo() {
+        if (getNumeroCelulas() > 0 && isRespira() == true) {
             System.out.println("Esta vivo");
         } else {
             System.out.println("No esta vivo o no es un ser vivo");
         }
     }
+
     public String getTipoAnimal() {
         return tipoAnimal;
     }
@@ -94,7 +108,5 @@ public class Animales extends SeresVivos{
         }
         return true;
     }
-    
-    
-    
+
 }

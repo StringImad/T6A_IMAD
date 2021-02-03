@@ -12,6 +12,7 @@ import java.util.Objects;
  * @author MSI
  */
 public class Mamifero extends Animales {
+
     private String tipoMamifero;
     private String cantidadPelo;//mucha poca o normal
     private int numeroMesesGestacionMaterna;
@@ -20,16 +21,23 @@ public class Mamifero extends Animales {
         super(tipoAnimal, reinoAniaml, esVertebrado, tipoReproduccion, numeroCelulas, respira);
     }
     
+    public void aguantefrio(){
+        if(cantidadPelo.equals(cantidadPelo)){
+            System.out.println("Aguanta bien el frio");
+        }else{
+            System.out.println("No aguanta bien el frio");
+        }
+        
+    }
     
-        @Override
-       public void estaVivo() {
-        if (getNumeroCelulas() > 0 && isRespira()== true) {
+    @Override
+    public void estaVivo() {
+        if (getNumeroCelulas() > 0 && isRespira() == true) {
             System.out.println("Esta vivo");
         } else {
             System.out.println("No esta vivo o no es un ser vivo");
         }
     }
-    
 
     public String getTipoMamifero() {
         return tipoMamifero;
@@ -92,7 +100,5 @@ public class Mamifero extends Animales {
     public String toString() {
         return "Mamifero{" + "tipoMamifero=" + tipoMamifero + ", cantidadPelo=" + cantidadPelo + ", numeroMesesGestacionMaterna=" + numeroMesesGestacionMaterna + '}';
     }
-    
-    
-    
+
 }
