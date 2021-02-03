@@ -19,6 +19,15 @@ public class Ave extends Animales{
     public Ave(String tipoAnimal, String reinoAniaml, boolean esVertebrado, String tipoReproduccion, int numeroCelulas, boolean respira) {
         super(tipoAnimal, reinoAniaml, esVertebrado, tipoReproduccion, numeroCelulas, respira);
     }
+    
+        @Override
+       public void estaVivo() {
+        if (getNumeroCelulas() > 0 && isRespira()== true) {
+            System.out.println("Esta vivo");
+        } else {
+            System.out.println("No esta vivo o no es un ser vivo");
+        }
+    }
 
     public String getTipoPlumas() {
         return tipoPlumas;

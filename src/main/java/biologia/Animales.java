@@ -23,7 +23,16 @@ public class Animales extends SeresVivos{
         this.reinoAniaml = reinoAniaml;
         this.esVertebrado = esVertebrado;
     }
-
+    
+    //Sobrescribe el “metodoA” en B, C y D. 
+    @Override
+       public void estaVivo() {
+        if (getNumeroCelulas() > 0 && isRespira()== true) {
+            System.out.println("Esta vivo");
+        } else {
+            System.out.println("No esta vivo o no es un ser vivo");
+        }
+    }
     public String getTipoAnimal() {
         return tipoAnimal;
     }
