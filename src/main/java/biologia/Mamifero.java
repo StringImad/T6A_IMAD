@@ -10,5 +10,10 @@ package biologia;
  * @author MSI
  */
 public class Mamifero extends Animales {
+    private String tipoMamifero;
+    private String cantidadPelo;//mucha poca o normal
+    private int numeroMesesGestacionMaterna;
+    
+    
     
 }

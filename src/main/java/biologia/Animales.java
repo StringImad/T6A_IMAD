@@ -10,5 +10,11 @@ package biologia;
  * @author MSI
  */
 public class Animales extends SeresVivos{
+    private String tipoAnimal;
+    private String reinoAniaml;
+    
+    private boolean esVertebrado;//true vertebrado false invertebrado
+    
+    
     
 }

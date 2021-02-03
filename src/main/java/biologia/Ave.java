@@ -10,5 +10,8 @@ package biologia;
  * @author MSI
  */
 public class Ave extends Animales{
+    private String tipoPlumas;
+    private int numeroHuevos;
+    private String tipoNido;
     
 }
