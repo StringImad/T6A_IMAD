@@ -24,10 +24,18 @@ public class Prueba {
         Mamifero claseC1 = new Mamifero("Accipitridae", "Ave", true, "sexual", 0, true);
         Mamifero claseC2 = new Mamifero("Canino", "mamifero", true, "sexual", 324112, true);
         
-        Ave claseD1 = new Ave("Felino", "", true, "sexual", 0, true);
+        Ave claseD1 = new Ave("Felino", "ave", true, "sexual", 0, true);
         Ave claseD3 = new Ave("gallopavo", "ave", true, "sexual", 2375472, true);
-        ArrayList<SeresVivos> array = new ArrayList<>();
-
+        ArrayList<SeresVivos> arraySeres = new ArrayList<>();
+        
+        arraySeres.add(claseA1);
+        arraySeres.add(claseA2);
+        arraySeres.add(claseB1);
+        arraySeres.add(claseB2);
+        arraySeres.add(claseC1);
+        arraySeres.add(claseC2);
+        arraySeres.add(claseD1);
+        arraySeres.add(claseD3);
         System.out.println(claseC2);
 
     }
