@@ -98,7 +98,7 @@ public class Mamifero extends Animales {
 
     @Override
     public String toString() {
-        return "Mamifero{" + "tipoMamifero=" + tipoMamifero + ", cantidadPelo=" + cantidadPelo + ", numeroMesesGestacionMaterna=" + numeroMesesGestacionMaterna + '}';
+        return super.toString()+"Mamifero{" + "tipoMamifero=" + tipoMamifero + ", cantidadPelo=" + cantidadPelo + ", numeroMesesGestacionMaterna=" + numeroMesesGestacionMaterna + '}';
     }
 
 }

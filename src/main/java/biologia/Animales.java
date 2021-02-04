@@ -73,7 +73,7 @@ public class Animales extends SeresVivos {
 
     @Override
     public String toString() {
-        return "Animales{" + "tipoAnimal=" + tipoAnimal + ", reinoAniaml=" + reinoAniaml + ", esVertebrado=" + esVertebrado + '}';
+        return super.toString()+"Animales{" + "tipoAnimal=" + tipoAnimal + ", reinoAniaml=" + reinoAniaml + ", esVertebrado=" + esVertebrado + '}';
     }
 
     @Override
