@@ -30,6 +30,16 @@ public class Mamifero extends Animales {
         
     }
     
+        public void reinoAnimalDefecto(){
+        
+        if(super.getReinoAniaml().equals("Mamifero")||super.getReinoAniaml().equals("Ave")){
+            System.out.println("Esta dentro de los seres vivos registrados");
+        }else{
+            System.out.println("No esta dentro de los seres vivos registrrados");
+        }
+        
+    }
+    
     @Override
     public void estaVivo() {
         if (getNumeroCelulas() > 0 && isRespira() == true) {

@@ -35,6 +35,15 @@ public class Animales extends SeresVivos {
         }
     }
     
+    public void reinoAnimalDefecto(){
+        
+        if(reinoAniaml.equals("Mamifero")||reinoAniaml.equals("Ave")){
+            System.out.println("Esta dentro de los seres vivos registrados");
+        }else{
+            System.out.println("No esta dentro de los seres vivos registrrados");
+        }
+        
+    }
     
 
     //Sobrescribe el “metodoA” en B, C y D. 
