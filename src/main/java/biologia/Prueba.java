@@ -72,11 +72,11 @@ public class Prueba {
 //            arraySeres.forEach(System.out::println);
 //        }
 
-//        arraySeres.indexOf(claseD1);
-//
-//        arraySeres.contains(claseB1);
-//
-//        arraySeres.remove(claseA1);
+        arraySeres.indexOf(claseD1);
+
+        arraySeres.contains(claseB1);
+
+        arraySeres.remove(claseA1);
 
     }
 }
