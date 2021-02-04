@@ -72,6 +72,9 @@ public class Mamifero extends Animales {
         return hash;
     }
 
+    
+    
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {

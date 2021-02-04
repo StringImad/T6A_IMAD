@@ -70,6 +70,7 @@ public class Ave extends Animales{
         return hash;
     }
 
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -93,7 +94,6 @@ public class Ave extends Animales{
         }
         return true;
     }
-
     @Override
     public String toString() {
         return super.toString()+"Ave{" + "tipoPlumas=" + tipoPlumas + ", numeroHuevos=" + numeroHuevos + ", tipoNido=" + tipoNido + '}';

@@ -73,7 +73,9 @@ public class SeresVivos {
         return hash;
     }
 
-    @Override
+    
+    
+     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
             return true;
@@ -96,5 +98,6 @@ public class SeresVivos {
         }
         return true;
     }
+   
     
 }
